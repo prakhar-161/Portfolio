@@ -15,6 +15,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-left: 30px;
 }
 
 .landing-text {
@@ -25,21 +26,25 @@ body {
     margin-left: 60px;
     font-size: 2rem;
     background-origin: padding-box;
-    /* border: 2px white solid; */
 }
 
 .name {
-    font-size: 1.8rem;
-    line-height: 3%;
+    font-size: 25px;
+    word-spacing: normal;
+    margin-top: -40px;
+    margin-bottom: -25px;
 }
 
 .typewriter {
+    
     font-size: 1.2rem;
     color: #000;
 }
 
 .landing-svg-div {
     margin-left: 30px;
+    width: 50%;
+    float: right;
 }
 
 .landing-svg {
@@ -48,3 +53,4 @@ body {
     height: 680px;
     width: 700px;
 }
+

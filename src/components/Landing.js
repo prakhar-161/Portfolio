@@ -9,7 +9,7 @@ const Landing = () => {
             <ParticleBackground />
             <div className="landing">
                 <div className="landing-text">
-                    <h1>Hi there &#128075;&#127995;</h1>
+                    <h1 className="landing-greet">Hi there &#128075;&#127995;</h1>
                     <div className="name">
                         <h1>I am Prakhar Dhama.</h1>
                     </div>
