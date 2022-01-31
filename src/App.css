@@ -1,0 +1,50 @@
+body {
+    color: #fff;
+    background-color: #151515;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito',sans-serif;
+}
+
+/* Landing section */
+.landing {
+    position: absolute;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.landing-text {
+    z-index: 10;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 2rem;
+    background-origin: padding-box;
+    /* border: 2px white solid; */
+}
+
+.name {
+    font-size: 1.8rem;
+    line-height: 3%;
+}
+
+.typewriter {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.landing-svg-div {
+    margin-left: 30px;
+}
+
+.landing-svg {
+    /* border: 2px white solid; */
+    z-index: inherit;
+    height: 680px;
+    width: 700px;
+}
